@@ -9,7 +9,7 @@ try {
 if (!inFrame && !navigator.userAgent.includes("Firefox")) {
     const popup = open("about:blank", "_blank")
     if (!popup || popup.closed) {
-        alert("Popups are disabled!")
+        alert("Popups are disabled! And so is your mom")
     } else {
         const doc = popup.document
         const iframe = doc.createElement("iframe")
